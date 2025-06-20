@@ -6,13 +6,14 @@ This is a simple web application that allows users to enter their name and age, 
 
 ```
 
-├── index.html # Main HTML file
-├── README.md # Project documentation
+├── index.html        
+├── README.md      
 └── src/
-├── styles/
-│ └── style.css # CSS styles
-└── script/
-└── sistema_interactivo.js # JavaScript logic
+    ├── styles/
+    │   └── style.css 
+    └── script/
+        └── sistema_interactivo.js  
+
 ```
 
 ---
