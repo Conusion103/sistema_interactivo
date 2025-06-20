@@ -85,3 +85,12 @@ This project includes basic SEO meta tags for better visibility by search engine
 ## 🔐 License
 
 This project is not distributed under any license. It’s for educational purposes only.
+
+---
+## 🔱 Coder Information
+
+Name: Isai David Ariza Cantillo
+
+Clan: Sierra
+
+Email: isaistudio1.1@hotmail.com
