@@ -1,0 +1,218 @@
+/* General reset to avoid default margins/paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;          
+    font-size: 16px;
+    background-color: #D0D0D0; 
+    width: 100%;
+}
+
+/* Main header */
+header {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 10%;              
+    width: 30%;
+    margin: 0.05em 35% auto 35%; 
+}
+
+/* Header title */
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    white-space: nowrap;
+}
+
+/* Main content area */
+main {
+    flex-grow: 1; 
+    height: 82vh;
+
+}
+
+/* Form container */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 2em 40% auto 40%; 
+}
+
+/* Form styles */
+form {
+    border: 1px solid black;
+    width: 30em;
+    height: 33em;
+    background-color: #2C2F36; 
+    color: #FAFFFF;            
+    border-radius: 1.5em;     
+}
+
+/* Form title */
+form h2 {
+    text-align: center;
+    margin: 2em;
+}
+
+/* Container for inputs (name and age) */
+.name_age {
+    width: 60%;
+    margin: auto 20% auto 20%; 
+}
+
+/* Labels */
+label {
+    font-size: 1.3em;
+    margin-bottom: 0.4em;
+}
+
+/* Input fields */
+input {
+    height: 3em;
+    margin-bottom: 5em;
+    border-radius: 1.2em;
+    border: none;
+    padding-left: 1em; 
+}
+
+/* General article layout inside the form */
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Submit button */
+button {
+    margin: -1em 27.5% 2.5em 27.5%; 
+    width: 45%;
+    padding: 1em;
+    background-color: #02BE7C; 
+    border-radius: 1.5em;
+    border: none;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+/* Area for result or validation message */
+#text {
+    margin-top: -1.8em;
+    width: 100%;
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1E1E;
+    color: #ffffff;
+    height: 8vh;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 1em;
+    border-top: 1px solid #444;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0.2em;
+    text-align: center;
+}
+
+/*Responsive design*/
+@media (max-width:500px)
+{
+
+    form {
+    width: 20em;
+    
+  
+}
+
+}
+
+
+@media (max-width:300px)
+{
+
+    form {
+    width: 15em;
+    height: 25em;
+    
+  
+}
+header {
+    margin: 0.05em 35% 5em 35%; 
+}
+form h2 {
+    font-size: 1em;
+    text-align: center;
+    margin: 1.5em;
+}
+
+/* Container for inputs (name and age) */
+.name_age {
+    width: 60%;
+    margin-left:20%;
+    margin-right: 20%; 
+}
+
+/* Labels */
+label {
+    font-size: 1em;
+}
+
+/* Input fields */
+input {
+    height: 3em;
+    margin-bottom: 3em;
+    border-radius: 1.2em;
+    border: none;
+    padding-left: 1em; 
+}
+
+/* General article layout inside the form */
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Submit button */
+button {
+    margin: -1em 27.5% 2.5em 27.5%; 
+    width: 45%;
+    padding: 1em;
+    background-color: #02BE7C; 
+    border-radius: 1.5em;
+    border: none;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+/* Area for result or validation message */
+#text {
+    margin-top: -1.8em;
+    width: 100%;
+    text-align: center;
+    font-size: .8em;
+}
+
+}
+
+
+
+
+
+
+
