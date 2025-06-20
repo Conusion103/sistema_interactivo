@@ -13,6 +13,7 @@ This is a simple web application that allows users to enter their name and age, 
 │ └── style.css # CSS styles
 └── script/
 └── sistema_interactivo.js # JavaScript logic
+```
 
 ---
 
