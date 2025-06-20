@@ -4,6 +4,8 @@ This is a simple web application that allows users to enter their name and age, 
 
 ## 🗂️ Project Structure
 
+```
+
 ├── index.html # Main HTML file
 ├── README.md # Project documentation
 └── src/
