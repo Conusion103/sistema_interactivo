@@ -17,7 +17,7 @@ btn.addEventListener('click', function () {
             throw new Error(message_try);
         }
 
-        // Regular expression: allows only letters and spaces (including accents and ñ)
+        // Regular expression
         let nameRegex = /^[A-Za-zÁÉÍÓÚáéíóúñÑ\s]+$/;
         if (!nameRegex.test(name)) {
             throw new Error("The name can only contain letters and spaces");
